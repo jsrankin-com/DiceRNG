@@ -14,9 +14,8 @@ Jeffrey S. Rankin
 -[admin@jsrankin.com](admin@jsrankin.com)
 
 ```cpp
-int main() {
-  int y = SOME_MACRO_REFERENCE;
-  int x = 5 + 6;
-  cout << "Hello World! " << x << std::endl();
-}
+    DiceRNG d;
+
+    std::cout << "One roll:\t" << d() << std::endl;
+    std::cout << "One roll:\t" << d.roll() << std::endl;
 ```
