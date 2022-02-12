@@ -22,22 +22,22 @@ DiceRNG::DiceRNG()
 
 int DiceRNG::operator()()
 {
-	return DiceRNG::roll();
+	return DiceRNG::Roll();
 }
 
 std::vector<int> DiceRNG::operator()(int n)
 {
-	return DiceRNG::roll(n);
+	return DiceRNG::Roll(n);
 }
 
 //Returns one roll as an int
-int DiceRNG::roll()
+int DiceRNG::Roll()
 {
 	return distribution(generator);
 }
 
 //Returns a vector of rolls as ints
-std::vector<int> DiceRNG::roll(int n)
+std::vector<int> DiceRNG::Roll(int n)
 {
 	std::vector<int> ret;
 

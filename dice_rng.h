@@ -15,6 +15,6 @@ public:
     int operator()();
     std::vector<int> operator()(int);
 
-    int roll();
-    std::vector<int> roll(int);
+    int Roll();
+    std::vector<int> Roll(int);
 };

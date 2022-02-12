@@ -18,7 +18,7 @@ int main()
     DiceRNG d;
 
     std::cout << "One roll:\t" << d() << std::endl;
-    std::cout << "One roll:\t" << d.roll() << std::endl;
+    std::cout << "One roll:\t" << d.Roll() << std::endl;
 
     std::cout << "Five rolls:\t";
     for (auto x : d(5))
@@ -28,7 +28,7 @@ int main()
     std::cout << std::endl;
 
     std::cout << "Five rolls:\t";
-    for (auto x : d.roll(5))
+    for (auto x : d.Roll(5))
     {
         std::cout << x << ' ';
     }
