@@ -4,15 +4,16 @@ Creates an object that acts as a cubical 6-sided die. The die can be rolled by e
 
 **References**:
 
-	https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution
-	https://www.cplusplus.com/reference/vector/vector/reserve/
+	[https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution](https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution)
+	[https://www.cplusplus.com/reference/vector/vector/reserve/](https://www.cplusplus.com/reference/vector/vector/reserve/)
 
 **Art by valkyrie**
 	
-	https://www.asciiart.eu/miscellaneous/dice
+	[https://www.asciiart.eu/miscellaneous/dice](https://www.asciiart.eu/miscellaneous/dice)
+	
 
 **Author**:
 
 	Jeffrey S. Rankin
-	http://jsrankin.com
-	admin@jsrankin.com
+	[http://jsrankin.com](http://jsrankin.com)
+	[admin@jsrankin.com](admin@jsrankin.com)
