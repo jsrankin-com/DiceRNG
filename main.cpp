@@ -17,14 +17,25 @@ int main()
 {
     DiceRNG d;
 
-    std::cout << "1 ROLL:\t" << d() << std::endl;
-    std::cout << "1 ROLL:\t" << d.roll() << std::endl;
+    std::cout << "One roll:\t" << d() << std::endl;
+    std::cout << "One roll:\t" << d.roll() << std::endl;
 
-    std::cout << "5 ROLLS:\t";
+    std::cout << "Five rolls:\t";
     for (auto x : d(5))
     {
         std::cout << x << ' ';
     }
+    std::cout << std::endl;
+
+    std::cout << "Five rolls:\t";
+    for (auto x : d.roll(5))
+    {
+        std::cout << x << ' ';
+    }
+    std::cout << std::endl;
+
+    std::cout << "\nPress ENTER key to continue...";
+    std::cin.get();
     std::cout << std::endl;
 
     return 0;
