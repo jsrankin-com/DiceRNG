@@ -12,3 +12,11 @@ Creates an object that acts as a cubical 6-sided die. The die can be rolled by e
 Jeffrey S. Rankin
 -[http://jsrankin.com](http://jsrankin.com)
 -[admin@jsrankin.com](admin@jsrankin.com)
+
+```cpp
+int main() {
+  int y = SOME_MACRO_REFERENCE;
+  int x = 5 + 6;
+  cout << "Hello World! " << x << std::endl();
+}
+```
