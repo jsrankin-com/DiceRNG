@@ -3,6 +3,7 @@ Creates an object that acts as a cubical 6-sided die. The die can be rolled by e
 
 
 **References**:
+
 	https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution
 	https://www.cplusplus.com/reference/vector/vector/reserve/
 
