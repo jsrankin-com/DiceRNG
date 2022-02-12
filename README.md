@@ -14,8 +14,13 @@ Jeffrey S. Rankin
 -[admin@jsrankin.com](admin@jsrankin.com)
 
 ```cpp
+int main()
+{
     DiceRNG d;
 
     std::cout << "One roll:\t" << d() << std::endl;
     std::cout << "One roll:\t" << d.roll() << std::endl;
+    
+    return 0;
+}
 ```
