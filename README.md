@@ -11,6 +11,7 @@ Creates an object that acts as a cubical 6-sided die. The die can be rolled by e
 	https://www.asciiart.eu/miscellaneous/dice
 
 **Author**:
+
 	Jeffrey S. Rankin
 	http://jsrankin.com
 	admin@jsrankin.com
