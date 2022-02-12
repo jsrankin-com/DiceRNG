@@ -1,7 +1,7 @@
 // ************************EIGHTY CHARACTER CODING AREA*************************// LANDSCAPE COMMENT SECTION LENGTH
 /*
-                 _______.		main.cpp
-   ______		| .   . |\			Driver program to test dice_rng.cpp and
+               _______.		  main.cpp
+   ______		  | .   . |\			Driver program to test dice_rng.cpp and
   /     /\		|   .   |.\		dice_rng.hpp. Auto keyword since C++11.
  /  '  /  \		| .   . |.'|
 /_____/. . \	|_______|.'|
