@@ -1,13 +1,13 @@
 // ************************EIGHTY CHARACTER CODING AREA*************************// LANDSCAPE COMMENT SECTION LENGTH
 /*
-				 _______.		dice_rng.cpp
+			 _______.		dice_rng.cpp
    ______		| .   . |\		dice_rng.h
   /     /\		|   .   |.\			Creates an object that acts as a cubical
- /  '  /  \		| .   . |.'|	6-sided die. The die can be rolled by either
-/_____/. . \	|_______|.'|	calling the public roll function or the
-\ . . \    /	 \ ' .   \'|	overloaded parentheses. If a number is supplied
- \ . . \  /		  \____'__\|	it will roll the die that many times and return
-  \_____\/						the results as a vector of integers.
+ /  '  /  \		| .   . |.'|		6-sided die. The die can be rolled by either
+/_____/. . \		|_______|.'|		calling the public roll function or the
+\ . . \    /	 	 \ ' .   \'|		overloaded parentheses. If a number is supplied
+ \ . . \  /		  \____'__\|		it will roll the die that many times and return
+  \_____\/					the results as a vector of integers.
 */
 
 #include "dice_rng.h"
