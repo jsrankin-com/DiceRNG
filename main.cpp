@@ -42,8 +42,8 @@ int main()
     std::cout << std::endl;
 
     std::cout << "Risk test:\t";
-    std::vector<int> attackerRoles;
-    std::vector<int> defenderRoles;
+    std::vector<int> attRoles;
+    std::vector<int> defRoles;
 
     int attacking_army = 50;
     int defending_army = 50;
@@ -53,31 +53,31 @@ int main()
         //Set attacking dice 3 or less
         if (attacking_army < 3)
         {
-            attackerRoles = d.Roll(attacking_army);
+            attRoles = d.Roll(attacking_army);
         }
         else
         {
-            attackerRoles = d.Roll(3);
+            attRoles = d.Roll(3);
         }
 
         //Set defending dice 2 or 1
         if (defending_army == 1)
         {
-            defenderRoles = d.Roll(1);
+            defRoles = d.Roll(1);
         }
         else {
-            defenderRoles = d.Roll(2);
+            defRoles = d.Roll(2);
         }
 
         //Sort to compare best Rolls
-        std::sort(attackerRoles.begin(), attackerRoles.end(), std::greater<>());
-        std::sort(defenderRoles.begin(), defenderRoles.end(), std::greater<>());
+        std::sort(attRoles.begin(), attRoles.end(), std::greater<>());
+        std::sort(defRoles.begin(), defRoles.end(), std::greater<>());
 
-        int iterations = ReturnSmaller(attackerRoles.size(), defenderRoles.size());
+        int iterations = ReturnSmaller(attRoles.size(), defRoles.size());
         for (int i = 0; i < iterations; ++i)
         {
             //Defender wins if Rolls are equal or higher
-            if (defenderRoles[i] < attackerRoles[i])
+            if (defRoles[i] < attRoles[i])
             {
                 --defending_army;
                 std::cout << "ATTACKER WON" << std::endl;
@@ -91,16 +91,14 @@ int main()
 
     if (attacking_army < defending_army)
     {
-        std::cout << "ATTACKER LOST THE BATTLE\n"
-            << "ATTACKING ARMY: " << attacking_army
-            << "DEFENDING ARMY: " << defending_army << std::endl;
+        std::cout << "ATTACKER LOST THE BATTLE\n";
     }
     else
     {
-        std::cout << "ATTACKER WON THE BATTLE\n"
-            << "ATTACKING ARMY: "<<attacking_army 
-            << "DEFENDING ARMY: " << defending_army << std::endl;
+        std::cout << "ATTACKER WON THE BATTLE\n";
     }
+    std::cout << "ATTACKING ARMY: " << attacking_army
+        << "\nDEFENDING ARMY: " << defending_army << std::endl;
 
     std::cout << "\nPress ENTER key to continue...";
     std::cin.get();
