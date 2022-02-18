@@ -41,7 +41,7 @@ int main()
     }
     std::cout << std::endl;
 
-    std::cout << "Risk test:\t";
+    std::cout << "Risk test:" << std::endl;
     std::vector<int> attRoles;
     std::vector<int> defRoles;
 
