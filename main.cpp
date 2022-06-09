@@ -11,7 +11,6 @@
 */
 
 #include "dice_rng.h"
-#include "/tests/risk.cpp"
 #include <iostream>
 
 template <class T>
