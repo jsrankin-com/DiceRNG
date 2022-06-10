@@ -24,6 +24,24 @@ int main()
     std::cout << "One roll:\t" << d() << std::endl;
     std::cout << "One roll:\t" << d.roll() << std::endl;
     
+    std::vector<int> rolls;
+    rolls = d(5);
+    
+    std::cout << "Five rolls:\t";
+    for (auto x : rolls)
+    {
+        std::cout << x << ' ';
+    }
+    std::cout << std::endl;
+
+    rolls = d.Roll(5);
+    std::cout << "Five rolls:\t";
+    for (auto x : rolls)
+    {
+        std::cout << x << ' ';
+    }
+    std::cout << std::endl;
+    
     return 0;
 }
 ```
